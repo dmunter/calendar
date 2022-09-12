@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+import './custom.scss';
 import './App.css';
+import './custom.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  {Button, Alert, Breadcrumb}  from 'react-bootstrap';
+
+
+// import FetchW from './components/API/FetchW'
+
+import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+
+//components within the sidebar
+import Fullcalendar from './components/calendarmain';
+import LatestWeather from "./components/latestweather"
+import Documentation from "./components/documentation"
+
+import Sidebar from "./components/sidebar";
 
 function App() {
+    
+  const Header = () => {
+    return (
+      <>
+        <Sidebar />
+        <Outlet />
+      </>
+    );
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Header />}>
+          <Route index element={<Fullcalendar />} />
+          <Route path="/latestweather" element={<LatestWeather />} />
+          <Route path="/documentation" element={<Documentation />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>  
     </div>
   );
 }

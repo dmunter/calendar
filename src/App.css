@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.big-calendar-window{
+  display: flex;
+  justify-content: center;
+  min-width: 50%;
+  
+}

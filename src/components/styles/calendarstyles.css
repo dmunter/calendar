@@ -1,0 +1,51 @@
+.calendar-container{
+    width: 90%;
+    float: right;
+    margin-right: 3%;
+    min-width: 400px;
+    position: relative;
+    z-index: 0;
+}
+
+.event{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.btn-1 {
+    margin: 5px;
+}
+.popup{
+    z-index: 4;
+    position: absolute;
+    margin: auto;
+    height: 300px;
+    top: 35%;
+    width: 100%;
+
+}
+.popup-container{
+
+    margin: auto;
+    width: 50%;
+    border-radius: 4px;
+    padding: 30px;
+    border: 1px rgb(148, 148, 148) solid;
+    background-color:#212529
+}
+.weather-container{
+    background-color: #212529;
+    width: 80%;
+    
+}
+.event-title{
+    font-size: large;
+    font-weight: 500;
+    color:white;
+    margin-bottom: 25px;
+}
+#input{
+    width: 50%;
+    margin: 5px;
+}

@@ -7,7 +7,7 @@ import  {Button, Alert, Breadcrumb}  from 'react-bootstrap';
 
 // import FetchW from './components/API/FetchW'
 
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { HashRouter,BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 
 //components within the sidebar
 import Fullcalendar from './components/calendarmain';
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path="/" element={<Header />}>
           <Route index element={<Fullcalendar />} />
@@ -37,7 +37,7 @@ function App() {
           <Route path="/documentation" element={<Documentation />} />
         </Route>
       </Routes>
-    </BrowserRouter>  
+    </HashRouter>  
     </div>
   );
 }

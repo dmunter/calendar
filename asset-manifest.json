@@ -1,13 +1,37 @@
 {
   "files": {
-    "main.css": "/calendar/static/css/main.07290a1a.css",
-    "main.js": "/calendar/static/js/main.fc7e103e.js",
+    "main.css": "/calendar/static/css/main.63b0a763.css",
+    "main.js": "/calendar/static/js/main.b0eaa8f0.js",
+    "static/media/pic10.jpg": "/calendar/static/media/pic10.47777ab6d083b40ef084.jpg",
+    "static/media/pic1.png": "/calendar/static/media/pic1.7bdcac70eb757330f22f.png",
+    "static/media/pic15.jpg": "/calendar/static/media/pic15.1bf605ed5de9bda1b946.jpg",
+    "static/media/pic16.jpg": "/calendar/static/media/pic16.3c075f399a82bd83b0eb.jpg",
+    "static/media/pic4.jpg": "/calendar/static/media/pic4.39f68885a227dd37e579.jpg",
+    "static/media/pic26.jpg": "/calendar/static/media/pic26.560354f031fa9f6a6331.jpg",
+    "static/media/pic21.jpg": "/calendar/static/media/pic21.063f24e70f43d4800ab6.jpg",
+    "static/media/pic18.jpg": "/calendar/static/media/pic18.43efd6aa0cc09902bb61.jpg",
+    "static/media/pic19.jpg": "/calendar/static/media/pic19.fe18fed05937e7b606be.jpg",
+    "static/media/pic7.jpg": "/calendar/static/media/pic7.a90cd9619cd4e60a5af1.jpg",
+    "static/media/pic25.jpg": "/calendar/static/media/pic25.cdb4f622eb333d97c905.jpg",
+    "static/media/pic22.jpg": "/calendar/static/media/pic22.7aea4723a4789fdd394d.jpg",
+    "static/media/pic17.jpg": "/calendar/static/media/pic17.dbb28e0dd48cf5854ee8.jpg",
+    "static/media/pic9.jpg": "/calendar/static/media/pic9.53b58ade78454dcf270b.jpg",
+    "static/media/pic14.jpg": "/calendar/static/media/pic14.5fabdbd04280088105d5.jpg",
+    "static/media/pic6.png": "/calendar/static/media/pic6.e0d6186b3c6780c0dc0e.png",
+    "static/media/pic8.jpg": "/calendar/static/media/pic8.6c6136aadc0c8fe7948a.jpg",
+    "static/media/pic2.jpg": "/calendar/static/media/pic2.f8602dab2f387c10d0ca.jpg",
+    "static/media/pic5.jpg": "/calendar/static/media/pic5.eee11dbdf00ef6ac2d99.jpg",
+    "static/media/pic11.jpg": "/calendar/static/media/pic11.9fa137079288098764e6.jpg",
+    "static/media/pic12.jpg": "/calendar/static/media/pic12.f330a0ec8ce200cb64b9.jpg",
+    "static/media/pic24.jpg": "/calendar/static/media/pic24.57194c511b20c99913c4.jpg",
+    "static/media/pic23.jpg": "/calendar/static/media/pic23.22351cda61f5f7e6f08d.jpg",
+    "static/media/pic3.jpg": "/calendar/static/media/pic3.9113a7bf1fcad8d30527.jpg",
     "index.html": "/calendar/index.html",
-    "main.07290a1a.css.map": "/calendar/static/css/main.07290a1a.css.map",
-    "main.fc7e103e.js.map": "/calendar/static/js/main.fc7e103e.js.map"
+    "main.63b0a763.css.map": "/calendar/static/css/main.63b0a763.css.map",
+    "main.b0eaa8f0.js.map": "/calendar/static/js/main.b0eaa8f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.07290a1a.css",
-    "static/js/main.fc7e103e.js"
+    "static/css/main.63b0a763.css",
+    "static/js/main.b0eaa8f0.js"
   ]
 }

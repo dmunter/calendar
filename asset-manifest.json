@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/calendar/static/css/main.63b0a763.css",
-    "main.js": "/calendar/static/js/main.b0eaa8f0.js",
+    "main.css": "/calendar/static/css/main.740341cf.css",
+    "main.js": "/calendar/static/js/main.5ffb6b00.js",
     "static/media/pic10.jpg": "/calendar/static/media/pic10.47777ab6d083b40ef084.jpg",
+    "static/media/showcase.jpg": "/calendar/static/media/showcase.4d5268b46b578a2fd3c8.jpg",
     "static/media/pic1.png": "/calendar/static/media/pic1.7bdcac70eb757330f22f.png",
     "static/media/pic15.jpg": "/calendar/static/media/pic15.1bf605ed5de9bda1b946.jpg",
     "static/media/pic16.jpg": "/calendar/static/media/pic16.3c075f399a82bd83b0eb.jpg",
@@ -27,11 +28,11 @@
     "static/media/pic23.jpg": "/calendar/static/media/pic23.22351cda61f5f7e6f08d.jpg",
     "static/media/pic3.jpg": "/calendar/static/media/pic3.9113a7bf1fcad8d30527.jpg",
     "index.html": "/calendar/index.html",
-    "main.63b0a763.css.map": "/calendar/static/css/main.63b0a763.css.map",
-    "main.b0eaa8f0.js.map": "/calendar/static/js/main.b0eaa8f0.js.map"
+    "main.740341cf.css.map": "/calendar/static/css/main.740341cf.css.map",
+    "main.5ffb6b00.js.map": "/calendar/static/js/main.5ffb6b00.js.map"
   },
   "entrypoints": [
-    "static/css/main.63b0a763.css",
-    "static/js/main.b0eaa8f0.js"
+    "static/css/main.740341cf.css",
+    "static/js/main.5ffb6b00.js"
   ]
 }

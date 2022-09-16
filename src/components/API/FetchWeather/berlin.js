@@ -23,7 +23,7 @@ const FetchNewYork = ({location})=> {
 
     useEffect( () =>{
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&APPID=464074878672b929bf35fa6f57cedd37`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&APPID=` + process.env.REACT_APP_WEATHER_APIV2 )
     .then(response => response.json())
     .then(results =>{
         

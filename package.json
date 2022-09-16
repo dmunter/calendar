@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -53,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "axios": "^0.27.2",
     "gh-pages": "^4.0.0"
   }
 }

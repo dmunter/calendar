@@ -29,7 +29,7 @@ const FetchNewYork = ()=> {
                 setLong( position.coords.longitude)
                 });
 
-        await fetch(`http://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&APPID=464074878672b929bf35fa6f57cedd37`)
+        await fetch(`https://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&APPID=` + process.env.REACT_APP_WEATHER_APIV2 )
         .then(response => response.json())
         .then(results =>{
             //console.log(results)

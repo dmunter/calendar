@@ -1,4 +1,4 @@
-import './custom.scss';
+
 import './App.css';
 import './custom.scss'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,7 +7,7 @@ import  {Button, Alert, Breadcrumb}  from 'react-bootstrap';
 
 // import FetchW from './components/API/FetchW'
 
-import { HashRouter,BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import { HashRouter, Routes, Route, Outlet } from "react-router-dom";
 
 //components within the sidebar
 import Fullcalendar from './components/calendarmain';
@@ -17,7 +17,7 @@ import Documentation from "./components/documentation"
 import Sidebar from "./components/sidebar";
 
 function App() {
-    
+ 
   const Header = () => {
     return (
       <>

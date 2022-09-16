@@ -126,8 +126,8 @@ export default function Fullcalendar(){
     }
     
     return(
-    <div className="calendar-container"> <h1>Calendar </h1> 
-
+    <div className="calendar-container">  
+     <h1>Calendar </h1>
       <Calendar 
         onSelectSlot={onSelectSlot}
         onSelectEvent = {onSelectEvent}
